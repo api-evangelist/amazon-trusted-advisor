@@ -1,0 +1,7 @@
+id: amazon-trusted-advisor-capability
+name: Amazon Trusted Advisor Capability
+description: Workflow-oriented capability for Amazon Trusted Advisor
+tags:
+- AWS
+consumes:
+- ref: capabilities/shared/amazon-trusted-advisor-shared.yaml

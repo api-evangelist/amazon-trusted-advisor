@@ -1,0 +1,5 @@
+id: amazon-trusted-advisor
+name: Amazon Trusted Advisor
+description: Shared capability definition for Amazon Trusted Advisor
+namespace: amazon-trusted-advisor
+operations: []

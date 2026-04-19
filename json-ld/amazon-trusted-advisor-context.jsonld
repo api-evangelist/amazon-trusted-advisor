@@ -1,0 +1,6 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "amazon_trusted_advisor": "https://aws.amazon.com/amazon-trusted-advisor/vocab#"
+  }
+}
