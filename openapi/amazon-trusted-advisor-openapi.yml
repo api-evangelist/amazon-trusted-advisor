@@ -1,0 +1,26 @@
+openapi: 3.1.0
+info:
+  title: Amazon Trusted Advisor (AWS Support)
+  version: '1.0.0'
+  description: Minimal OpenAPI representation of the AWS Support API which exposes Trusted Advisor checks alongside support case management. Operations follow the AWS RPC-over-HTTP convention.
+servers:
+  - url: https://support.us-east-1.amazonaws.com
+x-generated-from: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+x-generated-by: claude-crawl-2026-05-08
+paths:
+  /AddAttachmentsToSet: {post: {summary: AddAttachmentsToSet, operationId: AddAttachmentsToSet, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /AddCommunicationToCase: {post: {summary: AddCommunicationToCase, operationId: AddCommunicationToCase, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /CreateCase: {post: {summary: CreateCase, operationId: CreateCase, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /DescribeAttachment: {post: {summary: DescribeAttachment, operationId: DescribeAttachment, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /DescribeCases: {post: {summary: DescribeCases, operationId: DescribeCases, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /DescribeCommunications: {post: {summary: DescribeCommunications, operationId: DescribeCommunications, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /DescribeCreateCaseOptions: {post: {summary: DescribeCreateCaseOptions, operationId: DescribeCreateCaseOptions, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /DescribeServices: {post: {summary: DescribeServices, operationId: DescribeServices, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /DescribeSeverityLevels: {post: {summary: DescribeSeverityLevels, operationId: DescribeSeverityLevels, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /DescribeSupportedLanguages: {post: {summary: DescribeSupportedLanguages, operationId: DescribeSupportedLanguages, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /DescribeTrustedAdvisorCheckRefreshStatuses: {post: {summary: DescribeTrustedAdvisorCheckRefreshStatuses, operationId: DescribeTrustedAdvisorCheckRefreshStatuses, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /DescribeTrustedAdvisorCheckResult: {post: {summary: DescribeTrustedAdvisorCheckResult, operationId: DescribeTrustedAdvisorCheckResult, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /DescribeTrustedAdvisorChecks: {post: {summary: DescribeTrustedAdvisorChecks, operationId: DescribeTrustedAdvisorChecks, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /DescribeTrustedAdvisorCheckSummaries: {post: {summary: DescribeTrustedAdvisorCheckSummaries, operationId: DescribeTrustedAdvisorCheckSummaries, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /RefreshTrustedAdvisorCheck: {post: {summary: RefreshTrustedAdvisorCheck, operationId: RefreshTrustedAdvisorCheck, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}
+  /ResolveCase: {post: {summary: ResolveCase, operationId: ResolveCase, requestBody: {content: {application/json: {schema: {type: object}}}}, responses: {'200': {description: OK, content: {application/json: {schema: {type: object}}}}}}}

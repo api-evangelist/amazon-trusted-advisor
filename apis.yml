@@ -34,6 +34,8 @@ apis:
   - Cloud Optimization
   - Security
   properties:
+  - url: openapi/amazon-trusted-advisor-openapi.yml
+    type: OpenAPI
   - type: Documentation
     url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
   - type: APIReference
