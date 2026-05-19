@@ -1,0 +1,707 @@
+naftiko: 1.0.0-alpha2
+info:
+  label: Amazon Trusted Advisor (AWS Support)
+  description: 'Amazon Trusted Advisor (AWS Support). 16 operations. Lead operation: AddAttachmentsToSet. Self-contained Naftiko
+    capability covering one Amazon Trusted Advisor business surface.'
+  tags:
+  - Amazon Trusted Advisor
+  - Amazon Trusted Advisor (AWS Support)
+  created: '2026-05-19'
+  modified: '2026-05-19'
+binds:
+- namespace: env
+  keys:
+    AMAZON_TRUSTED_ADVISOR_API_KEY: AMAZON_TRUSTED_ADVISOR_API_KEY
+capability:
+  consumes:
+  - type: http
+    namespace: amazon-trusted-advisor
+    baseUri: https://support.us-east-1.amazonaws.com
+    description: Amazon Trusted Advisor (AWS Support) business capability. Self-contained, no shared references.
+    resources:
+    - name: AddAttachmentsToSet
+      path: /AddAttachmentsToSet
+      operations:
+      - name: addattachmentstoset
+        method: POST
+        description: AddAttachmentsToSet
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: AddCommunicationToCase
+      path: /AddCommunicationToCase
+      operations:
+      - name: addcommunicationtocase
+        method: POST
+        description: AddCommunicationToCase
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateCase
+      path: /CreateCase
+      operations:
+      - name: createcase
+        method: POST
+        description: CreateCase
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeAttachment
+      path: /DescribeAttachment
+      operations:
+      - name: describeattachment
+        method: POST
+        description: DescribeAttachment
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeCases
+      path: /DescribeCases
+      operations:
+      - name: describecases
+        method: POST
+        description: DescribeCases
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeCommunications
+      path: /DescribeCommunications
+      operations:
+      - name: describecommunications
+        method: POST
+        description: DescribeCommunications
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeCreateCaseOptions
+      path: /DescribeCreateCaseOptions
+      operations:
+      - name: describecreatecaseoptions
+        method: POST
+        description: DescribeCreateCaseOptions
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeServices
+      path: /DescribeServices
+      operations:
+      - name: describeservices
+        method: POST
+        description: DescribeServices
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeSeverityLevels
+      path: /DescribeSeverityLevels
+      operations:
+      - name: describeseveritylevels
+        method: POST
+        description: DescribeSeverityLevels
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeSupportedLanguages
+      path: /DescribeSupportedLanguages
+      operations:
+      - name: describesupportedlanguages
+        method: POST
+        description: DescribeSupportedLanguages
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeTrustedAdvisorCheckRefreshStatuses
+      path: /DescribeTrustedAdvisorCheckRefreshStatuses
+      operations:
+      - name: describetrustedadvisorcheckrefreshstatuses
+        method: POST
+        description: DescribeTrustedAdvisorCheckRefreshStatuses
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeTrustedAdvisorCheckResult
+      path: /DescribeTrustedAdvisorCheckResult
+      operations:
+      - name: describetrustedadvisorcheckresult
+        method: POST
+        description: DescribeTrustedAdvisorCheckResult
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeTrustedAdvisorCheckSummaries
+      path: /DescribeTrustedAdvisorCheckSummaries
+      operations:
+      - name: describetrustedadvisorchecksummaries
+        method: POST
+        description: DescribeTrustedAdvisorCheckSummaries
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DescribeTrustedAdvisorChecks
+      path: /DescribeTrustedAdvisorChecks
+      operations:
+      - name: describetrustedadvisorchecks
+        method: POST
+        description: DescribeTrustedAdvisorChecks
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: RefreshTrustedAdvisorCheck
+      path: /RefreshTrustedAdvisorCheck
+      operations:
+      - name: refreshtrustedadvisorcheck
+        method: POST
+        description: RefreshTrustedAdvisorCheck
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ResolveCase
+      path: /ResolveCase
+      operations:
+      - name: resolvecase
+        method: POST
+        description: ResolveCase
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+  exposes:
+  - type: rest
+    namespace: amazon-trusted-advisor-rest
+    port: 8080
+    description: REST adapter for Amazon Trusted Advisor (AWS Support). One Spectral-compliant resource per consumed operation,
+      prefixed with /v1.
+    resources:
+    - path: /v1/addattachmentstoset
+      name: addattachmentstoset
+      description: REST surface for AddAttachmentsToSet.
+      operations:
+      - method: POST
+        name: addattachmentstoset
+        description: AddAttachmentsToSet
+        call: amazon-trusted-advisor.addattachmentstoset
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/addcommunicationtocase
+      name: addcommunicationtocase
+      description: REST surface for AddCommunicationToCase.
+      operations:
+      - method: POST
+        name: addcommunicationtocase
+        description: AddCommunicationToCase
+        call: amazon-trusted-advisor.addcommunicationtocase
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createcase
+      name: createcase
+      description: REST surface for CreateCase.
+      operations:
+      - method: POST
+        name: createcase
+        description: CreateCase
+        call: amazon-trusted-advisor.createcase
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describeattachment
+      name: describeattachment
+      description: REST surface for DescribeAttachment.
+      operations:
+      - method: POST
+        name: describeattachment
+        description: DescribeAttachment
+        call: amazon-trusted-advisor.describeattachment
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describecases
+      name: describecases
+      description: REST surface for DescribeCases.
+      operations:
+      - method: POST
+        name: describecases
+        description: DescribeCases
+        call: amazon-trusted-advisor.describecases
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describecommunications
+      name: describecommunications
+      description: REST surface for DescribeCommunications.
+      operations:
+      - method: POST
+        name: describecommunications
+        description: DescribeCommunications
+        call: amazon-trusted-advisor.describecommunications
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describecreatecaseoptions
+      name: describecreatecaseoptions
+      description: REST surface for DescribeCreateCaseOptions.
+      operations:
+      - method: POST
+        name: describecreatecaseoptions
+        description: DescribeCreateCaseOptions
+        call: amazon-trusted-advisor.describecreatecaseoptions
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describeservices
+      name: describeservices
+      description: REST surface for DescribeServices.
+      operations:
+      - method: POST
+        name: describeservices
+        description: DescribeServices
+        call: amazon-trusted-advisor.describeservices
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describeseveritylevels
+      name: describeseveritylevels
+      description: REST surface for DescribeSeverityLevels.
+      operations:
+      - method: POST
+        name: describeseveritylevels
+        description: DescribeSeverityLevels
+        call: amazon-trusted-advisor.describeseveritylevels
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describesupportedlanguages
+      name: describesupportedlanguages
+      description: REST surface for DescribeSupportedLanguages.
+      operations:
+      - method: POST
+        name: describesupportedlanguages
+        description: DescribeSupportedLanguages
+        call: amazon-trusted-advisor.describesupportedlanguages
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describetrustedadvisorcheckrefreshstatuses
+      name: describetrustedadvisorcheckrefreshstatuses
+      description: REST surface for DescribeTrustedAdvisorCheckRefreshStatuses.
+      operations:
+      - method: POST
+        name: describetrustedadvisorcheckrefreshstatuses
+        description: DescribeTrustedAdvisorCheckRefreshStatuses
+        call: amazon-trusted-advisor.describetrustedadvisorcheckrefreshstatuses
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describetrustedadvisorcheckresult
+      name: describetrustedadvisorcheckresult
+      description: REST surface for DescribeTrustedAdvisorCheckResult.
+      operations:
+      - method: POST
+        name: describetrustedadvisorcheckresult
+        description: DescribeTrustedAdvisorCheckResult
+        call: amazon-trusted-advisor.describetrustedadvisorcheckresult
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describetrustedadvisorchecksummaries
+      name: describetrustedadvisorchecksummaries
+      description: REST surface for DescribeTrustedAdvisorCheckSummaries.
+      operations:
+      - method: POST
+        name: describetrustedadvisorchecksummaries
+        description: DescribeTrustedAdvisorCheckSummaries
+        call: amazon-trusted-advisor.describetrustedadvisorchecksummaries
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/describetrustedadvisorchecks
+      name: describetrustedadvisorchecks
+      description: REST surface for DescribeTrustedAdvisorChecks.
+      operations:
+      - method: POST
+        name: describetrustedadvisorchecks
+        description: DescribeTrustedAdvisorChecks
+        call: amazon-trusted-advisor.describetrustedadvisorchecks
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/refreshtrustedadvisorcheck
+      name: refreshtrustedadvisorcheck
+      description: REST surface for RefreshTrustedAdvisorCheck.
+      operations:
+      - method: POST
+        name: refreshtrustedadvisorcheck
+        description: RefreshTrustedAdvisorCheck
+        call: amazon-trusted-advisor.refreshtrustedadvisorcheck
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/resolvecase
+      name: resolvecase
+      description: REST surface for ResolveCase.
+      operations:
+      - method: POST
+        name: resolvecase
+        description: ResolveCase
+        call: amazon-trusted-advisor.resolvecase
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+  - type: mcp
+    namespace: amazon-trusted-advisor-mcp
+    port: 9090
+    transport: http
+    description: MCP adapter for Amazon Trusted Advisor (AWS Support). One tool per consumed operation, routed inline through
+      this capability's consumes block.
+    tools:
+    - name: addattachmentstoset
+      description: AddAttachmentsToSet
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.addattachmentstoset
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: addcommunicationtocase
+      description: AddCommunicationToCase
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.addcommunicationtocase
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createcase
+      description: CreateCase
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.createcase
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describeattachment
+      description: DescribeAttachment
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.describeattachment
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describecases
+      description: DescribeCases
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.describecases
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describecommunications
+      description: DescribeCommunications
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.describecommunications
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describecreatecaseoptions
+      description: DescribeCreateCaseOptions
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.describecreatecaseoptions
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describeservices
+      description: DescribeServices
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.describeservices
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describeseveritylevels
+      description: DescribeSeverityLevels
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.describeseveritylevels
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describesupportedlanguages
+      description: DescribeSupportedLanguages
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.describesupportedlanguages
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describetrustedadvisorcheckrefreshstatuses
+      description: DescribeTrustedAdvisorCheckRefreshStatuses
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.describetrustedadvisorcheckrefreshstatuses
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describetrustedadvisorcheckresult
+      description: DescribeTrustedAdvisorCheckResult
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.describetrustedadvisorcheckresult
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describetrustedadvisorchecksummaries
+      description: DescribeTrustedAdvisorCheckSummaries
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.describetrustedadvisorchecksummaries
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: describetrustedadvisorchecks
+      description: DescribeTrustedAdvisorChecks
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.describetrustedadvisorchecks
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: refreshtrustedadvisorcheck
+      description: RefreshTrustedAdvisorCheck
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.refreshtrustedadvisorcheck
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: resolvecase
+      description: ResolveCase
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-trusted-advisor.resolvecase
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
