@@ -1,0 +1,250 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Trusted Advisor (AWS Support)",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "AddAttachmentsToSet",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/AddAttachmentsToSet",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "AddAttachmentsToSet"
+    },
+    {
+      "info": {
+        "name": "AddCommunicationToCase",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/AddCommunicationToCase",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "AddCommunicationToCase"
+    },
+    {
+      "info": {
+        "name": "CreateCase",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/CreateCase",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateCase"
+    },
+    {
+      "info": {
+        "name": "DescribeAttachment",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/DescribeAttachment",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeAttachment"
+    },
+    {
+      "info": {
+        "name": "DescribeCases",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/DescribeCases",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeCases"
+    },
+    {
+      "info": {
+        "name": "DescribeCommunications",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/DescribeCommunications",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeCommunications"
+    },
+    {
+      "info": {
+        "name": "DescribeCreateCaseOptions",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/DescribeCreateCaseOptions",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeCreateCaseOptions"
+    },
+    {
+      "info": {
+        "name": "DescribeServices",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/DescribeServices",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeServices"
+    },
+    {
+      "info": {
+        "name": "DescribeSeverityLevels",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/DescribeSeverityLevels",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeSeverityLevels"
+    },
+    {
+      "info": {
+        "name": "DescribeSupportedLanguages",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/DescribeSupportedLanguages",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeSupportedLanguages"
+    },
+    {
+      "info": {
+        "name": "DescribeTrustedAdvisorCheckRefreshStatuses",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/DescribeTrustedAdvisorCheckRefreshStatuses",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeTrustedAdvisorCheckRefreshStatuses"
+    },
+    {
+      "info": {
+        "name": "DescribeTrustedAdvisorCheckResult",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/DescribeTrustedAdvisorCheckResult",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeTrustedAdvisorCheckResult"
+    },
+    {
+      "info": {
+        "name": "DescribeTrustedAdvisorChecks",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/DescribeTrustedAdvisorChecks",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeTrustedAdvisorChecks"
+    },
+    {
+      "info": {
+        "name": "DescribeTrustedAdvisorCheckSummaries",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/DescribeTrustedAdvisorCheckSummaries",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DescribeTrustedAdvisorCheckSummaries"
+    },
+    {
+      "info": {
+        "name": "RefreshTrustedAdvisorCheck",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/RefreshTrustedAdvisorCheck",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "RefreshTrustedAdvisorCheck"
+    },
+    {
+      "info": {
+        "name": "ResolveCase",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://support.us-east-1.amazonaws.com/ResolveCase",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ResolveCase"
+    }
+  ],
+  "bundled": true
+}
