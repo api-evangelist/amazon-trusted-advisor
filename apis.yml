@@ -44,6 +44,12 @@ apis:
       - type: FAQ
         url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
 common:
+  - type: TrustCenter
+    url: security/amazon-trusted-advisor-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/amazon-trusted-advisor-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/amazon-trusted-advisor-domain-security.yml
   - type: Portal
     url: https://aws.amazon.com/
   - type: Website
