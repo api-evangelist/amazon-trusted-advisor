@@ -44,6 +44,8 @@ apis:
       - type: FAQ
         url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
 common:
+  - type: AgenticAccess
+    url: agentic-access/amazon-trusted-advisor-agentic-access.yml
   - type: TrustCenter
     url: security/amazon-trusted-advisor-trust-center.yml
   - type: VulnerabilityDisclosure
