@@ -1,0 +1,30 @@
+openapi: 3.1.0
+info:
+  title: Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeTrustedAdvisorCheckRefreshStatuses API
+  version: 1.0.0
+  description: Minimal OpenAPI representation of the AWS Support API which exposes Trusted Advisor checks alongside support case management. Operations follow the AWS RPC-over-HTTP convention.
+servers:
+- url: https://support.us-east-1.amazonaws.com
+tags:
+- name: DescribeTrustedAdvisorCheckRefreshStatuses
+paths:
+  /DescribeTrustedAdvisorCheckRefreshStatuses:
+    post:
+      summary: DescribeTrustedAdvisorCheckRefreshStatuses
+      operationId: DescribeTrustedAdvisorCheckRefreshStatuses
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+      tags:
+      - DescribeTrustedAdvisorCheckRefreshStatuses
+x-generated-from: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+x-generated-by: claude-crawl-2026-05-08
