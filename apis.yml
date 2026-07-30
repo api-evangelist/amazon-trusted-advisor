@@ -6,7 +6,19 @@ description: >-
   reliability, and closing security gaps across cost optimization, performance, security, fault tolerance, and service
   limits.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-trusted-advisor.png
 tags:
   - AWS
   - Best Practices
@@ -17,32 +29,358 @@ created: '2026-03-16'
 modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
-  - aid: amazon-trusted-advisor:aws-support-api
-    name: AWS Trusted Advisor API
-    description: >-
-      The AWS Support API provides programmatic access to AWS Trusted Advisor checks, results, and recommendations. It
-      enables retrieving check summaries, refreshing checks, and accessing detailed results for cost optimization,
-      performance, security, fault tolerance, and service limits.
-    humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
-    baseURL: https://support.us-east-1.amazonaws.com
-    tags:
-      - AWS
-      - Best Practices
-      - Cloud Optimization
-      - Security
-    properties:
-      - url: openapi/amazon-trusted-advisor-openapi.yml
-        type: OpenAPI
-      - type: Documentation
-        url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
-      - type: APIReference
-        url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
-      - type: GettingStarted
-        url: https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
-      - type: Pricing
-        url: https://aws.amazon.com/premiumsupport/plans/
-      - type: FAQ
-        url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-addattachmentstoset-api
+  name: Amazon Trusted Advisor AddAttachmentsToSet API
+  description: >-
+    The AddAttachmentsToSet API from Amazon Trusted Advisor — 1 operation(s) for addattachmentstoset.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - AddAttachmentsToSet
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-addattachmentstoset-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-addcommunicationtocase-api
+  name: Amazon Trusted Advisor AddCommunicationToCase API
+  description: >-
+    The AddCommunicationToCase API from Amazon Trusted Advisor — 1 operation(s) for addcommunicationtocase.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - AddCommunicationToCase
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-addcommunicationtocase-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-createcase-api
+  name: Amazon Trusted Advisor CreateCase API
+  description: The CreateCase API from Amazon Trusted Advisor — 1 operation(s) for createcase.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - CreateCase
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-createcase-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-describeattachment-api
+  name: Amazon Trusted Advisor DescribeAttachment API
+  description: >-
+    The DescribeAttachment API from Amazon Trusted Advisor — 1 operation(s) for describeattachment.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - DescribeAttachment
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-describeattachment-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-describecases-api
+  name: Amazon Trusted Advisor DescribeCases API
+  description: The DescribeCases API from Amazon Trusted Advisor — 1 operation(s) for describecases.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - DescribeCases
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-describecases-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-describecommunications-api
+  name: Amazon Trusted Advisor DescribeCommunications API
+  description: >-
+    The DescribeCommunications API from Amazon Trusted Advisor — 1 operation(s) for describecommunications.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - DescribeCommunications
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-describecommunications-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-describecreatecaseoptions-api
+  name: Amazon Trusted Advisor DescribeCreateCaseOptions API
+  description: >-
+    The DescribeCreateCaseOptions API from Amazon Trusted Advisor — 1 operation(s) for describecreatecaseoptions.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - DescribeCreateCaseOptions
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-describecreatecaseoptions-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-describeservices-api
+  name: Amazon Trusted Advisor DescribeServices API
+  description: >-
+    The DescribeServices API from Amazon Trusted Advisor — 1 operation(s) for describeservices.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - DescribeServices
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-describeservices-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-describeseveritylevels-api
+  name: Amazon Trusted Advisor DescribeSeverityLevels API
+  description: >-
+    The DescribeSeverityLevels API from Amazon Trusted Advisor — 1 operation(s) for describeseveritylevels.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - DescribeSeverityLevels
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-describeseveritylevels-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-describesupportedlanguages-api
+  name: Amazon Trusted Advisor DescribeSupportedLanguages API
+  description: >-
+    The DescribeSupportedLanguages API from Amazon Trusted Advisor — 1 operation(s) for describesupportedlanguages.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - DescribeSupportedLanguages
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-describesupportedlanguages-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: >-
+    amazon-trusted-advisor:amazon-trusted-advisor-describetrustedadvisorcheckrefreshstatuses-api
+  name: Amazon Trusted Advisor DescribeTrustedAdvisorCheckRefreshStatuses API
+  description: >-
+    The DescribeTrustedAdvisorCheckRefreshStatuses API from Amazon Trusted Advisor — 1 operation(s) for
+    describetrustedadvisorcheckrefreshstatuses.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - DescribeTrustedAdvisorCheckRefreshStatuses
+  properties:
+  - type: OpenAPI
+    url: >-
+      openapi/amazon-trusted-advisor-describetrustedadvisorcheckrefreshstatuses-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-describetrustedadvisorcheckresult-api
+  name: Amazon Trusted Advisor DescribeTrustedAdvisorCheckResult API
+  description: >-
+    The DescribeTrustedAdvisorCheckResult API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorcheckresult.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - DescribeTrustedAdvisorCheckResult
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-describetrustedadvisorcheckresult-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-describetrustedadvisorchecks-api
+  name: Amazon Trusted Advisor DescribeTrustedAdvisorChecks API
+  description: >-
+    The DescribeTrustedAdvisorChecks API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorchecks.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - DescribeTrustedAdvisorChecks
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-describetrustedadvisorchecks-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-describetrustedadvisorchecksummaries-api
+  name: Amazon Trusted Advisor DescribeTrustedAdvisorCheckSummaries API
+  description: >-
+    The DescribeTrustedAdvisorCheckSummaries API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorchecksummaries.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - DescribeTrustedAdvisorCheckSummaries
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-describetrustedadvisorchecksummaries-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-refreshtrustedadvisorcheck-api
+  name: Amazon Trusted Advisor RefreshTrustedAdvisorCheck API
+  description: >-
+    The RefreshTrustedAdvisorCheck API from Amazon Trusted Advisor — 1 operation(s) for refreshtrustedadvisorcheck.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - RefreshTrustedAdvisorCheck
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-refreshtrustedadvisorcheck-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
+- aid: amazon-trusted-advisor:amazon-trusted-advisor-resolvecase-api
+  name: Amazon Trusted Advisor ResolveCase API
+  description: The ResolveCase API from Amazon Trusted Advisor — 1 operation(s) for resolvecase.
+  humanURL: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+  baseURL: https://support.us-east-1.amazonaws.com
+  tags:
+  - ResolveCase
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-trusted-advisor-resolvecase-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/awssupport/latest/APIReference/
+  - type: GettingStarted
+    url: >-
+      https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html
+  - type: Pricing
+    url: https://aws.amazon.com/premiumsupport/plans/
+  - type: FAQ
+    url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
 common:
   - type: AgenticAccess
     url: agentic-access/amazon-trusted-advisor-agentic-access.yml
