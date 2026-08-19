@@ -1,0 +1,120 @@
+{
+  "item": [
+    {
+      "id": "b75694b4-87cb-4ffa-a7a2-af27e70cec52",
+      "name": "DescribeTrustedAdvisorChecks",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "17cda9b3-1e47-4743-b3b6-5b646b2fd70d",
+          "name": "DescribeTrustedAdvisorChecks",
+          "request": {
+            "name": "DescribeTrustedAdvisorChecks",
+            "description": {},
+            "url": {
+              "path": [
+                "DescribeTrustedAdvisorChecks"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "<object>",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "607e3825-cd7a-46a5-b6c5-0025ede1981b",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "DescribeTrustedAdvisorChecks"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "<object>",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://support.us-east-1.amazonaws.com",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "b9bbbf0f-09d0-43fc-be69-fb8ece74fe1c",
+    "name": "Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeTrustedAdvisorChecks API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Minimal OpenAPI representation of the AWS Support API which exposes Trusted Advisor checks alongside support case management. Operations follow the AWS RPC-over-HTTP convention.",
+      "type": "text/plain"
+    }
+  }
+}

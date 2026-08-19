@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeSeverityLevels API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeSeverityLevels",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeSeverityLevels",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://support.us-east-1.amazonaws.com/DescribeSeverityLevels",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeSeverityLevels"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

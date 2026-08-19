@@ -1,0 +1,120 @@
+{
+  "item": [
+    {
+      "id": "f019143e-4bc2-4197-8432-284a7dc4e06e",
+      "name": "DescribeCreateCaseOptions",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "b8558fa2-0795-45c2-ac82-743194fd93bf",
+          "name": "DescribeCreateCaseOptions",
+          "request": {
+            "name": "DescribeCreateCaseOptions",
+            "description": {},
+            "url": {
+              "path": [
+                "DescribeCreateCaseOptions"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "<object>",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "9e19df8f-f8d0-41a2-86e3-58466b7b4d5e",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "DescribeCreateCaseOptions"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "<object>",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://support.us-east-1.amazonaws.com",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "a3d93989-69b0-4900-ba74-a192cb33b38e",
+    "name": "Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeCreateCaseOptions API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Minimal OpenAPI representation of the AWS Support API which exposes Trusted Advisor checks alongside support case management. Operations follow the AWS RPC-over-HTTP convention.",
+      "type": "text/plain"
+    }
+  }
+}

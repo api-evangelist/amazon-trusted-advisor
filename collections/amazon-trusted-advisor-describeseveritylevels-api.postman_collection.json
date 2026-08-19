@@ -1,0 +1,120 @@
+{
+  "item": [
+    {
+      "id": "a9fbdae1-cb1a-433c-8863-f6f70d9289c2",
+      "name": "DescribeSeverityLevels",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "ca01ecbe-dad2-4dc5-be89-f3d041391f41",
+          "name": "DescribeSeverityLevels",
+          "request": {
+            "name": "DescribeSeverityLevels",
+            "description": {},
+            "url": {
+              "path": [
+                "DescribeSeverityLevels"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "<object>",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "2df73dcd-5932-4a04-8c87-179d2881677c",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "DescribeSeverityLevels"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "<object>",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://support.us-east-1.amazonaws.com",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "7475eb37-de34-475f-8d49-efa2c52ece68",
+    "name": "Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeSeverityLevels API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Minimal OpenAPI representation of the AWS Support API which exposes Trusted Advisor checks alongside support case management. Operations follow the AWS RPC-over-HTTP convention.",
+      "type": "text/plain"
+    }
+  }
+}

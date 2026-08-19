@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeTrustedAdvisorChecks API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeTrustedAdvisorChecks",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeTrustedAdvisorChecks",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://support.us-east-1.amazonaws.com/DescribeTrustedAdvisorChecks",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeTrustedAdvisorChecks"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

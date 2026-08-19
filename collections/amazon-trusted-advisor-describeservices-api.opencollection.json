@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeServices API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeServices",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeServices",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://support.us-east-1.amazonaws.com/DescribeServices",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeServices"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet AddCommunicationToCase API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "AddCommunicationToCase",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "AddCommunicationToCase",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://support.us-east-1.amazonaws.com/AddCommunicationToCase",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "AddCommunicationToCase"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

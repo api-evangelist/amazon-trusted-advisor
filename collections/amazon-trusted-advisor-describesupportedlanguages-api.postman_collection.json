@@ -1,0 +1,120 @@
+{
+  "item": [
+    {
+      "id": "82ceaf26-8a98-42a3-8e43-8640f14a2b97",
+      "name": "DescribeSupportedLanguages",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "3fda422a-39da-41ba-aa37-48da7d4b010f",
+          "name": "DescribeSupportedLanguages",
+          "request": {
+            "name": "DescribeSupportedLanguages",
+            "description": {},
+            "url": {
+              "path": [
+                "DescribeSupportedLanguages"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "<object>",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "7d2cb347-cf36-4d0c-8d4c-8d6699fb9172",
+              "name": "OK",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "DescribeSupportedLanguages"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "<object>",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://support.us-east-1.amazonaws.com",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "dcfb6a17-0f01-4e5d-a18f-7eb083b6754b",
+    "name": "Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeSupportedLanguages API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Minimal OpenAPI representation of the AWS Support API which exposes Trusted Advisor checks alongside support case management. Operations follow the AWS RPC-over-HTTP convention.",
+      "type": "text/plain"
+    }
+  }
+}

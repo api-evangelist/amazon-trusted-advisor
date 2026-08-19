@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeCreateCaseOptions API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeCreateCaseOptions",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeCreateCaseOptions",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://support.us-east-1.amazonaws.com/DescribeCreateCaseOptions",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeCreateCaseOptions"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

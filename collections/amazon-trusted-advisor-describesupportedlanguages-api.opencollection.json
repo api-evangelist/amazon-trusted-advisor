@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeSupportedLanguages API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DescribeSupportedLanguages",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DescribeSupportedLanguages",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://support.us-east-1.amazonaws.com/DescribeSupportedLanguages",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DescribeSupportedLanguages"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
