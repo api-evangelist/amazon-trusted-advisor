@@ -394,6 +394,9 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
 common:
+  - type: CapabilityMap
+    url: capabilities/amazon-trusted-advisor-capability-edges.yml
+    name: Amazon Trusted Advisor Business Capability Map
   - type: AgenticAccess
     url: agentic-access/amazon-trusted-advisor-agentic-access.yml
   - type: TrustCenter

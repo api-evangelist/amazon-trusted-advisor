@@ -1,0 +1,45 @@
+slug: amazon-trusted-advisor
+provider: Amazon Trusted Advisor
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 3
+edges:
+- tag: DescribeTrustedAdvisorCheckResult
+  spec_file: amazon-trusted-advisor-describetrustedadvisorcheckresult-api-openapi.yml
+  capability_id: BC-600.40
+  capability_id_l1: BC-600
+  capability_name: IT Operations Management
+  confidence: 0.75
+  evidence: '''inspects your AWS environment and makes recommendations for saving money, improving system
+    performance and reliability, and closing security gaps'''
+  reason: Returns the detailed findings of automated checks over the cloud estate — monitoring and remediation
+    guidance for IT operations.
+- tag: DescribeTrustedAdvisorCheckSummaries
+  spec_file: amazon-trusted-advisor-describetrustedadvisorchecksummaries-api-openapi.yml
+  capability_id: BC-600.40
+  capability_id_l1: BC-600
+  capability_name: IT Operations Management
+  confidence: 0.7
+  evidence: '''POST /DescribeTrustedAdvisorCheckSummaries'' — API that ''makes recommendations ... across
+    cost optimization, performance, security, fault tolerance, and service limits'''
+  reason: Aggregated status of environment best-practice checks, i.e. operational monitoring reporting
+    over cloud infrastructure.
+- tag: DescribeTrustedAdvisorChecks
+  spec_file: amazon-trusted-advisor-describetrustedadvisorchecks-api-openapi.yml
+  capability_id: BC-600.40
+  capability_id_l1: BC-600
+  capability_name: IT Operations Management
+  confidence: 0.7
+  evidence: '''POST /DescribeTrustedAdvisorChecks'' on an API that ''provides real-time guidance to help
+    you provision your resources following AWS best practices'''
+  reason: Enumerates the available best-practice checks applied to the cloud environment — IT operations
+    monitoring configuration.
