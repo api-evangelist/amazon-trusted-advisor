@@ -394,6 +394,12 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/
 common:
+  - type: Plans
+    url: plans/amazon-trusted-advisor-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/amazon-trusted-advisor-rate-limits.yml
+  - type: FinOps
+    url: finops/amazon-trusted-advisor-finops.yml
   - type: CapabilityMap
     url: capabilities/amazon-trusted-advisor-capability-edges.yml
     name: Amazon Trusted Advisor Business Capability Map
