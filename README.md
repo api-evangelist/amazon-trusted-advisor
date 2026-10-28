@@ -1,4 +1,4 @@
-# Amazon Trusted Advisor (amazon-trusted-advisor)
+# Amazon Trusted Advisor
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,71 +66,176 @@
 
 AWS Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices. It inspects your AWS environment and makes recommendations for saving money, improving system performance and reliability, and closing security gaps across cost optimization, performance, security, fault tolerance, and service limits.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/apis.yml)
+**Areas:** AWS · Best Practices · Cloud Optimization · Security
 
-## Scope
+## Amazon Trusted Advisor on APIs.io
 
-- **Type:** Index
+Everything profiled for Amazon Trusted Advisor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/amazon-trusted-advisor/](https://apis.io/providers/amazon-trusted-advisor/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (16)
 
-- AWS
-- Best Practices
-- Cloud Optimization
-- Security
+- [Amazon Trusted Advisor AddAttachmentsToSet API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-addattachmentstoset-api/) — The AddAttachmentsToSet API from Amazon Trusted Advisor — 1 operation(s) for addattachmentstoset.
+- [Amazon Trusted Advisor AddCommunicationToCase API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-addcommunicationtocase-api/) — The AddCommunicationToCase API from Amazon Trusted Advisor — 1 operation(s) for addcommunicationtocase.
+- [Amazon Trusted Advisor CreateCase API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-createcase-api/) — The CreateCase API from Amazon Trusted Advisor — 1 operation(s) for createcase.
+- [Amazon Trusted Advisor DescribeAttachment API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-describeattachment-api/) — The DescribeAttachment API from Amazon Trusted Advisor — 1 operation(s) for describeattachment.
+- [Amazon Trusted Advisor DescribeCases API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-describecases-api/) — The DescribeCases API from Amazon Trusted Advisor — 1 operation(s) for describecases.
+- [Amazon Trusted Advisor DescribeCommunications API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-describecommunications-api/) — The DescribeCommunications API from Amazon Trusted Advisor — 1 operation(s) for describecommunications.
+- [Amazon Trusted Advisor DescribeCreateCaseOptions API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-describecreatecaseoptions-api/) — The DescribeCreateCaseOptions API from Amazon Trusted Advisor — 1 operation(s) for describecreatecaseoptions.
+- [Amazon Trusted Advisor DescribeServices API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-describeservices-api/) — The DescribeServices API from Amazon Trusted Advisor — 1 operation(s) for describeservices.
+- [Amazon Trusted Advisor DescribeSeverityLevels API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-describeseveritylevels-api/) — The DescribeSeverityLevels API from Amazon Trusted Advisor — 1 operation(s) for describeseveritylevels.
+- [Amazon Trusted Advisor DescribeSupportedLanguages API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-describesupportedlanguages-api/) — The DescribeSupportedLanguages API from Amazon Trusted Advisor — 1 operation(s) for describesupportedlanguages.
+- [Amazon Trusted Advisor DescribeTrustedAdvisorCheckRefreshStatuses API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-describetrustedadvisorcheckrefreshstatuses-api/) — The DescribeTrustedAdvisorCheckRefreshStatuses API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorcheckrefreshstatuses.
+- [Amazon Trusted Advisor DescribeTrustedAdvisorCheckResult API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-describetrustedadvisorcheckresult-api/) — The DescribeTrustedAdvisorCheckResult API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorcheckresult.
+- [Amazon Trusted Advisor DescribeTrustedAdvisorChecks API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-describetrustedadvisorchecks-api/) — The DescribeTrustedAdvisorChecks API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorchecks.
+- [Amazon Trusted Advisor DescribeTrustedAdvisorCheckSummaries API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-describetrustedadvisorchecksummaries-api/) — The DescribeTrustedAdvisorCheckSummaries API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorchecksummaries.
+- [Amazon Trusted Advisor RefreshTrustedAdvisorCheck API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-refreshtrustedadvisorcheck-api/) — The RefreshTrustedAdvisorCheck API from Amazon Trusted Advisor — 1 operation(s) for refreshtrustedadvisorcheck.
+- [Amazon Trusted Advisor ResolveCase API](https://apis.io/apis/amazon-trusted-advisor/amazon-trusted-advisor-resolvecase-api/) — The ResolveCase API from Amazon Trusted Advisor — 1 operation(s) for resolvecase.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-05-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### AWS Trusted Advisor API
+Which operations an agent can call, which act, and which need a human in the loop.
 
-The AWS Support API provides programmatic access to AWS Trusted Advisor checks, results, and recommendations. It enables retrieving check summaries, refreshing checks, and accessing detailed results for cost optimization, performance, security, fault tolerance, and service limits.
+- [Amazon Trusted Advisor Agentic Access](https://apis.io/agentic-access/amazon-trusted-advisor/amazon-trusted-advisor-agentic-access/)
 
-- **Human URL:** [https://aws.amazon.com/premiumsupport/technology/trusted-advisor/](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
-- **Base URL:** `https://support.us-east-1.amazonaws.com`
+#### JSON-LD (1)
 
-#### Tags
+Linked-data contexts for the provider's vocabulary.
 
-- AWS
-- Best Practices
-- Cloud Optimization
-- Security
+- [Amazon Trusted Advisor Context](https://apis.io/jsonld/amazon-trusted-advisor/amazon-trusted-advisor-context/)
 
-#### Properties
+#### Vocabulary (1)
 
-- [OpenAPI](openapi/amazon-trusted-advisor-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/amazon-trusted-advisor.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/amazon-trusted-advisor.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-- [Documentation](https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html)
-- [API Reference](https://docs.aws.amazon.com/awssupport/latest/APIReference/)
-- [Getting Started](https://docs.aws.amazon.com/awssupport/latest/user/get-started-with-aws-trusted-advisor.html)
-- [Pricing](https://aws.amazon.com/premiumsupport/plans/)
-- [F A Q](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/faqs/)
+The provider's domain terms, defined.
 
-## Common Properties
+- [Amazon Trusted Advisor Vocabulary](https://apis.io/vocabularies/amazon-trusted-advisor/amazon-trusted-advisor-vocabulary/)
 
-- [Portal](https://aws.amazon.com/)
+#### Examples (1)
+
+Example requests and responses.
+
+- [Amazon Trusted Advisor Example](https://apis.io/examples/amazon-trusted-advisor/amazon-trusted-advisor-example/)
+
+#### Collections (17)
+
+Postman and Open Collection request collections.
+
+- [Amazon Trusted Advisor (AWS Support)](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-addattachmentstoset-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet AddCommunicationToCase API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-addcommunicationtocase-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet CreateCase API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-createcase-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeAttachment API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-describeattachment-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeCases API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-describecases-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeCommunications API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-describecommunications-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeCreateCaseOptions API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-describecreatecaseoptions-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeServices API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-describeservices-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeSeverityLevels API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-describeseveritylevels-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeSupportedLanguages API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-describesupportedlanguages-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeTrustedAdvisorCheckRefreshStatuses API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-describetrustedadvisorcheckrefreshstatuses-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeTrustedAdvisorCheckResult API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-describetrustedadvisorcheckresult-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeTrustedAdvisorChecks API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-describetrustedadvisorchecks-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet DescribeTrustedAdvisorCheckSummaries API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-describetrustedadvisorchecksummaries-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet RefreshTrustedAdvisorCheck API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-refreshtrustedadvisorcheck-api/)
+- [Amazon Trusted Advisor (AWS Support) AddAttachmentsToSet ResolveCase API](https://apis.io/collections/amazon-trusted-advisor/open-amazon-trusted-advisor-resolvecase-api/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Amazon Trusted Advisor API Rules](https://apis.io/rules/amazon-trusted-advisor/amazon-trusted-advisor-spectral-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Amazon Trusted Advisor Domain Security](https://apis.io/security/amazon-trusted-advisor/amazon-trusted-advisor-domain-security/)
+- [Amazon Trusted Advisor Trust Center](https://apis.io/security/amazon-trusted-advisor/amazon-trusted-advisor-trust-center/)
+- [Amazon Trusted Advisor Vulnerability Disclosure](https://apis.io/security/amazon-trusted-advisor/amazon-trusted-advisor-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Amazon Trusted Advisor Plans Pricing](https://apis.io/plans/amazon-trusted-advisor/amazon-trusted-advisor-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Amazon Trusted Advisor Rate Limits](https://apis.io/rate-limits/amazon-trusted-advisor/amazon-trusted-advisor-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Amazon Trusted Advisor Finops](https://apis.io/finops/amazon-trusted-advisor/amazon-trusted-advisor-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
 - [Documentation](https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html)
-- [Console](https://console.aws.amazon.com/trustedadvisor/)
-- [Terms of Service](https://aws.amazon.com/service-terms/)
-- [Privacy Policy](https://aws.amazon.com/privacy/)
 - [Support](https://aws.amazon.com/premiumsupport/)
-- [Sign Up](https://signin.aws.amazon.com/signup?request_type=register)
-- [Login](https://aws.amazon.com/console/)
-- [Status Page](https://health.aws.amazon.com/health/status)
-- [GitHub Organization](https://github.com/aws)
-- [Spectral Rules](https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/rules/amazon-trusted-advisor-spectral-rules.yml)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/vocabulary/amazon-trusted-advisor-vocabulary.yaml)
-- [Features](undefined)
-- [Use Cases](undefined)
-- [Integrations](https://aws.amazon.com/marketplace)
+- [Terms of service](https://aws.amazon.com/service-terms/)
+- [Privacy policy](https://aws.amazon.com/privacy/)
+- [GitHub](https://github.com/aws)
+- [Status](https://health.aws.amazon.com/health/status)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 46.8** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 42.0 |
+| Contract governance | 25.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 53.9 |
+
+**Agent readiness 15.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/amazon-trusted-advisor/](https://apis.io/providers/amazon-trusted-advisor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Amazon Trusted Advisor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/amazon-trusted-advisor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
