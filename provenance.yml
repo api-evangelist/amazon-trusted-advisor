@@ -5,7 +5,19 @@ artifacts:
   agentic-access/amazon-trusted-advisor-agentic-access.yml:
     method: generated
     evidence: declared in the artifact
+  ai-preferences/amazon-trusted-advisor-ai-preferences.yml:
+    method: harvested
+    evidence: declared in the artifact
+  authentication/amazon-trusted-advisor-authentication.yml:
+    method: derived
+    evidence: declared in the artifact
   capabilities/amazon-trusted-advisor-capability-edges.yml:
+    method: unknown
+    evidence: no authorship recorded
+  certification/observations-2026-11-11.jsonl:
+    method: unknown
+    evidence: no authorship recorded
+  certification/status.yml:
     method: unknown
     evidence: no authorship recorded
   collections/amazon-trusted-advisor-addattachmentstoset-api.opencollection.json:
@@ -110,6 +122,27 @@ artifacts:
   collections/amazon-trusted-advisor.postman_collection.json:
     method: derived
     evidence: openapi/amazon-trusted-advisor
+  compliance/amazon-trusted-advisor-compliance.yml:
+    method: harvested
+    evidence: declared in the artifact
+  conformance/amazon-trusted-advisor-conformance.yml:
+    method: derived
+    evidence: declared in the artifact
+  conventions/amazon-trusted-advisor-conventions.yml:
+    method: derived
+    evidence: declared in the artifact
+  data-license/amazon-trusted-advisor-data-license.yml:
+    method: harvested
+    evidence: declared in the artifact
+  data-model/amazon-trusted-advisor-data-model.yml:
+    method: derived
+    evidence: declared in the artifact
+  eligibility/amazon-trusted-advisor-eligibility.yml:
+    method: harvested
+    evidence: declared in the artifact
+  errors/amazon-trusted-advisor-problem-types.yml:
+    method: derived
+    evidence: declared in the artifact
   examples/amazon-trusted-advisor-example.json:
     method: unknown
     evidence: no authorship recorded
@@ -119,6 +152,9 @@ artifacts:
   front-door-ai/2026-09-17.yml:
     method: unknown
     evidence: no authorship recorded
+  hosts/amazon-trusted-advisor-hosts.yml:
+    method: derived
+    evidence: declared in the artifact
   integrations/_index.yml:
     method: generated
     evidence: carries an API Evangelist house phrase
@@ -128,10 +164,124 @@ artifacts:
   json-ld/amazon-trusted-advisor-context.jsonld:
     method: unknown
     evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-add-attachments-to-set-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-add-attachments-to-set-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-add-communication-to-case-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-add-communication-to-case-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-create-case-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-create-case-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-attachment-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-attachment-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-cases-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-cases-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-communications-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-communications-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-create-case-options-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-create-case-options-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-services-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-services-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-severity-levels-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-severity-levels-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-supported-languages-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-supported-languages-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-trusted-advisor-check-refresh-statuses-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-trusted-advisor-check-refresh-statuses-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-trusted-advisor-check-result-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-trusted-advisor-check-result-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-trusted-advisor-check-summaries-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-trusted-advisor-check-summaries-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-trusted-advisor-checks-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-describe-trusted-advisor-checks-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-get-attachment-upload-links-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-get-attachment-upload-links-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-list-checks-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-list-organization-recommendations-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-list-recommendations-for-resource-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-list-recommendations-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-refresh-trusted-advisor-check-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-refresh-trusted-advisor-check-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-resolve-case-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-trusted-advisor-resolve-case-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
   kin/checks-2026-10-23T222754.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
-  kin/checks-2026-11-02T082323.yml:
+  kin/checks-2026-11-06T143934.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
   kin/score-2026-09-23T000603.yml:
@@ -200,6 +350,18 @@ artifacts:
   kin/score-2026-11-02T082323.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-11-06T143934.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  llms/amazon-trusted-advisor-llms-provenance.yml:
+    method: unknown
+    evidence: no authorship recorded
+  llms/amazon-trusted-advisor-llms.txt:
+    method: unknown
+    evidence: no authorship recorded
+  mcp/amazon-trusted-advisor-mcp.yml:
+    method: derived
+    evidence: declared in the artifact
   openapi/amazon-trusted-advisor-addattachmentstoset-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -242,16 +404,31 @@ artifacts:
   openapi/amazon-trusted-advisor-describetrustedadvisorchecksummaries-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
+  openapi/amazon-trusted-advisor-operations-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
   openapi/amazon-trusted-advisor-refreshtrustedadvisorcheck-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-trusted-advisor-resolvecase-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
+  packages/amazon-trusted-advisor-packages.yml:
+    method: searched
+    evidence: declared in the artifact
+  patterns/amazon-trusted-advisor-patterns.yml:
+    method: derived
+    evidence: declared in the artifact
   plans/amazon-trusted-advisor-plans-pricing.yml:
     method: searched
     evidence: declared in the artifact
+  privacy/amazon-trusted-advisor-privacy-policy.yml:
+    method: harvested
+    evidence: declared in the artifact
   rate-limits/amazon-trusted-advisor-rate-limits.yml:
+    method: generated
+    evidence: declared in the artifact
+  rules/amazon-trusted-advisor-rules.yml:
     method: generated
     evidence: declared in the artifact
   rules/amazon-trusted-advisor-spectral-rules.yml:
@@ -269,9 +446,32 @@ artifacts:
   sla/amazon-trusted-advisor-sla.yml:
     method: generated
     evidence: declared in the artifact
+  smithy/support-2013-04-15.json:
+    method: harvested
+    evidence: byte-identical to https://raw.githubusercontent.com/aws/api-models-aws/3cd98287b471c106254abd89279cc87308d38bfd/models/support/service/2013-04-15/support-2013-04-15.json
+      (sha256 52b920f90836, fetched 2026-11-11T21:16:10+00:00)
   smithy/trustedadvisor-2022-09-15.json:
+    method: harvested
+    evidence: byte-identical to https://raw.githubusercontent.com/aws/api-models-aws/3cd98287b471c106254abd89279cc87308d38bfd/models/trustedadvisor/service/2022-09-15/trustedadvisor-2022-09-15.json
+      (sha256 a94dbfbad333, fetched 2026-11-11T21:16:09+00:00)
+  terms/amazon-trusted-advisor-terms-of-service.yml:
+    method: harvested
+    evidence: declared in the artifact
+  vendors/amazon-trusted-advisor-vendors.yml:
     method: unknown
     evidence: no authorship recorded
   vocabulary/amazon-trusted-advisor-vocabulary.yaml:
+    method: unknown
+    evidence: no authorship recorded
+  vocabulary/amazon-trusted-advisor-vocabulary.yml:
+    method: derived
+    evidence: declared in the artifact
+  well-known/amazon-trusted-advisor-midway-auth-openid-configuration.json:
+    method: unknown
+    evidence: no authorship recorded
+  well-known/amazon-trusted-advisor-security.txt:
+    method: unknown
+    evidence: no authorship recorded
+  well-known/amazon-trusted-advisor-well-known.yml:
     method: unknown
     evidence: no authorship recorded
